@@ -9,19 +9,20 @@
     "web": "npx expo start --web"
   },
   "dependencies": {
-    "expo": "~53.0.0",
-    "react": "18.3.1",
-    "react-native": "0.75.4",
     "@expo/vector-icons": "^14.0.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "expo": "~53.0.0",
     "expo-font": "~13.3.2",
     "expo-haptics": "~13.0.1",
     "expo-updates": "~0.25.20",
-    "@supabase/supabase-js": "^2.39.0"
+    "react": "18.3.1",
+    "react-native": "0.75.4"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@types/react": "~18.3.12",
     "@types/react-native": "~0.73.0",
+    "babel-preset-expo": "^13.2.4",
     "typescript": "~5.3.3"
   },
   "private": true
